@@ -43,18 +43,15 @@ function App() {
 
     // Garantir que os scripts de pixel UTMify sejam carregados
     useEffect(() => {
-        // Verificar se o pixel já foi carregado
-        if (!window.pixelId) {
-            window.pixelId = "691ad0b3d45a0036ba9fcfb4";
-        }
+        window.pixelId = "696e8ecf2cebca66b5f5ee70";
         
         // Carregar pixel script se ainda não estiver carregado
         if (!document.querySelector('script[src="https://cdn.utmify.com.br/scripts/pixel/pixel.js"]')) {
-            const pixelScript = document.createElement("script");
-            pixelScript.setAttribute("async", "");
-            pixelScript.setAttribute("defer", "");
-            pixelScript.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
-            document.head.appendChild(pixelScript);
+            const a = document.createElement("script");
+            a.setAttribute("async", "");
+            a.setAttribute("defer", "");
+            a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+            document.head.appendChild(a);
         }
 
         // Carregar UTMs script se ainda não estiver carregado
@@ -175,7 +172,7 @@ function App() {
     };
 
     const handleValidate = () => {
-        window.location.href = 'https://www.kintu.org/product/797733c6-ded2-4395-9510-9cfd8bb84409';
+        window.location.href = 'https://www.kintu.org/product/5019203e-e6a3-4858-a3fc-2860a9a31bd8';
     };
 
     const renderPage = () => {

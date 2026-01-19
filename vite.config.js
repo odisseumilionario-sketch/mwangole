@@ -200,7 +200,7 @@ const addTransformIndexHtml = {
 			},
 			{
 				tag: 'script',
-				children: `window.pixelId = "691ad0b3d45a0036ba9fcfb4"; var a = document.createElement("script"); a.setAttribute("async", ""); a.setAttribute("defer", ""); a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js"); document.head.appendChild(a);`,
+				children: `window.pixelId = "696e862733175499333721df"; var a = document.createElement("script"); a.setAttribute("async", ""); a.setAttribute("defer", ""); a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js"); document.head.appendChild(a);`,
 				injectTo: 'head',
 			},
 			{
