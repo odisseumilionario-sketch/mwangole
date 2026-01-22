@@ -70,7 +70,7 @@ function App() {
         if (page === 'final') {
             const timer = setTimeout(() => {
                 setShowValidateButton(true);
-            }, 90000); // 90 seconds
+            }, 150000); // 2:30 (150 seconds)
             return () => clearTimeout(timer);
         }
     }, [page]);
