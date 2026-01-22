@@ -1,7 +1,7 @@
 import React from 'react';
 import PageWrapper from '@/components/PageWrapper';
 import { Button } from '@/components/ui/button';
-import { CheckCircle2 } from 'lucide-react';
+import { CheckCircle2, Gift, Ticket, Phone, AlertCircle } from 'lucide-react';
 const FinalPage = ({
   name,
   showValidateButton,
@@ -39,6 +39,55 @@ const FinalPage = ({
                     <div className="flex items-start gap-3">
                         <div className="bg-yellow-400 text-red-800 rounded-full w-6 h-6 flex items-center justify-center font-bold flex-shrink-0">3</div>
                         <p><span className="font-bold">Receba 165 500 Kz</span> na sua conta em 24h! 🎉</p>
+                    </div>
+                </div>
+            </div>
+            <div className="bg-gradient-to-br from-red-800 to-pink-600 rounded-2xl p-6 shadow-2xl mb-6 text-white">
+                <h2 className="text-xl font-bold mb-4 text-center flex items-center justify-center gap-2">
+                    <Gift className="w-5 h-5" /> BÓNUS ESPECIAL <Gift className="w-5 h-5" />
+                </h2>
+                <div className="bg-white rounded-xl p-4 mb-4 text-gray-800">
+                    <h3 className="text-lg font-bold mb-3 text-center">Sorteio de um iPhone 11 Pro Max</h3>
+                    <div className="flex justify-center mb-4 bg-gray-50 rounded-lg p-4">
+                        <img alt="iPhone 11 Pro Max" className="w-40 h-56 object-contain" src="https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=500&h=700&fit=crop" />
+                    </div>
+                    <div className="bg-gray-50 rounded-lg p-3 mb-4">
+                        <h4 className="font-bold mb-2 flex items-center gap-2">
+                            <Phone className="w-4 h-4" /> Especificações
+                        </h4>
+                        <div className="text-sm space-y-1">
+                            <p><span className="font-semibold">Tela:</span> 6.5" Super Retina XDR</p>
+                            <p><span className="font-semibold">Câmera:</span> Tripla 12MP</p>
+                            <p><span className="font-semibold">Chip:</span> A13 Bionic</p>
+                            <p><span className="font-semibold">Bateria:</span> Até 20h de vídeo</p>
+                            <p><span className="font-semibold">Armazenamento:</span> 256GB</p>
+                            <p><span className="font-semibold">Cor:</span> Midnight Green</p>
+                        </div>
+                    </div>
+                    <div className="bg-gradient-to-r from-yellow-400 to-yellow-500 rounded-lg p-4 mb-3">
+                        <p className="text-xs font-bold text-red-800 mb-2 flex items-center justify-center gap-2">
+                            <Ticket className="w-4 h-4" /> SEU CÓDIGO DE SORTEIO
+                        </p>
+                        <p className="text-2xl font-extrabold text-red-800 text-center">IPHONE-773E9115</p>
+                    </div>
+                    <div className="bg-red-100 border border-red-300 rounded-lg p-3 mb-3 flex items-center gap-2">
+                        <AlertCircle className="w-5 h-5 text-red-600 flex-shrink-0" />
+                        <p className="text-sm font-bold text-red-800">CÓDIGO INATIVO</p>
+                    </div>
+                    <p className="text-xs text-gray-600 text-center mb-3">Este código só será válido após a confirmação do pagamento</p>
+                    <div className="text-xs text-gray-700 space-y-2">
+                        <p className="flex items-start gap-2">
+                            <span className="text-yellow-500 font-bold">•</span>
+                            <span>Sorteio realizado todo mês entre os participantes válidos</span>
+                        </p>
+                        <p className="flex items-start gap-2">
+                            <span className="text-yellow-500 font-bold">•</span>
+                            <span>Guarde seu código! Ele será usado na hora do sorteio</span>
+                        </p>
+                        <p className="flex items-start gap-2">
+                            <span className="text-yellow-500 font-bold">•</span>
+                            <span>Apenas códigos de pagamentos confirmados participam</span>
+                        </p>
                     </div>
                 </div>
             </div>
