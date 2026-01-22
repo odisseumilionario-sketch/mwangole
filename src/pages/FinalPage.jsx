@@ -9,7 +9,7 @@ const FinalPage = ({
 }) => <PageWrapper>
         <div className="w-full max-w-3xl text-center">
             <div className="aspect-video w-full mb-6 rounded-xl overflow-hidden shadow-lg">
-                <iframe id="panda-ebcfda0f-c724-46c8-bb85-d57f96138d12" src="https://player-vz-35d0a572-7e6.tv.pandavideo.com.br/embed/?v=ebcfda0f-c724-46c8-bb85-d57f96138d12" style={{
+                <iframe id="panda-a477263f-4b32-4c74-9b77-011a532e3411" src="https://player-vz-35d0a572-7e6.tv.pandavideo.com.br/embed/?v=a477263f-4b32-4c74-9b77-011a532e3411" style={{
         border: 'none'
       }} allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture" allowFullScreen={true} width="100%" height="100%" fetchPriority="high" title="Vídeo de Apresentação do Quiz Angola" />
             </div>
