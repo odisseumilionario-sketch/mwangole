@@ -14,12 +14,6 @@ const InfoPage = ({
                 <h1 className="text-red-600 text-2xl font-bold">Mostre que conheces Angola</h1>
                 <p className="text-gray-700">Responda 10 perguntas sobre Angola e ganhe até <span className="font-bold">165.000 Kz!</span></p>
             </div>
-            <h2 className="text-white text-2xl font-bold mb-4">Marcas que apoiam</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
-                <img alt="Marca 1" class="rounded-lg shadow-lg w-full" src="/images/b1.png" />
-                <img alt="Marca 2" class="rounded-lg shadow-lg w-full" src="/images/b2.png" />
-                <img alt="Marca 3" class="rounded-lg shadow-lg w-full" src="/images/b3.png" />
-            </div>
             <div className="bg-white rounded-lg p-6 shadow-2xl mb-8">
                 <p className="text-gray-600 mb-4">Insira o seu nome para começar a jogar</p>
                 <Input type="text" placeholder="Digite o seu nome completo..." value={name} onChange={e => setName(e.target.value)} className="text-center mb-4" />
